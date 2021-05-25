@@ -1,0 +1,78 @@
+.div1{
+margin-left: 200px;
+  background-color: #025955;
+  height: 750px;
+  position: absolute;
+  width: 400px;
+}
+.div2{
+position: relative;
+  height: 750px;
+  width: 500px;
+  left: 600px;
+  top: 0;
+}
+.div3{
+  height: 50px;
+  width: 1100px;
+  background-color: #92967d;
+  margin-left: 200px;
+}
+.div5{
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 1100px;
+  margin-left: 200px;
+}
+body{
+    margin: 0;
+    background-color: #dbf6e9;
+    font-family: 'Merriweather', serif;
+  }
+  h1{
+  text-align: center;
+  position: relative;
+  top: 300px;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 70px;
+  }
+  h2{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-family: 'Montserrat', sans-serif;
+    color: #d5dbb3;
+  }
+  .hh2{
+    color:#0a1931;
+    top:0;
+  }
+  h3{
+    margin: 0;
+    text-align: center;
+    position: relative;;
+    top: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .i2{
+    height: 750px;
+    width: 700px;
+  }
+  .i3{
+    height:100px;
+    width:1100px;
+  }
+  .ii{
+    margin-left: 200px;
+    height: 700px;
+    width: 1100px;
+  }
+  .icon{
+    position: relative;
+    margin-left:5px;
+    margin-top:2px; 
+    width: 20px;
+    height: 20px;
+  }
