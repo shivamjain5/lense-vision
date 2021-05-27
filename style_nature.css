@@ -1,0 +1,108 @@
+body{
+  background-image: url("9.jpg");
+  margin: 0;
+}
+.column{
+  margin-top: 0;
+  margin-left: 20px;
+ position: relative;
+  width: 45%;
+  float: left;
+  padding: 10px;
+  padding-top: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img{
+  margin-top: 0;
+  width: 100%;
+}
+.div1{
+  background-color: #f8eded; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, #f8eded , #025955);
+  width:100%;
+  height: 300px;
+  margin: 0;
+}
+.div5{
+  background-color: #025955;
+  text-align: center;
+  position: relative;
+  height: 200px;
+  width: 1100px;
+  margin-left: 200px;
+}
+h1{
+text-align: center;
+margin-bottom: 0;
+top: 300px;
+font-family: 'Mountains of Christmas', cursive;
+font-size: 90px;
+margin-top: 0;
+}
+h2{
+  text-align: center;
+  top: 250px;
+  font-family: 'Montserrat', sans-serif;
+  color: #d5dbb3;
+  margin-top: 0;
+}
+.hh2{
+  color:#0a1931;
+  top:0;
+  margin-top: 0;
+}
+.list1{
+  position: absolute;
+  margin-top: 72px;
+  margin-left: 35%;
+  text-align: center;
+}
+.li{
+padding-right: 70px;
+font-size: 20px;
+display: inline;
+text-align: center;
+font-family: 'Mountains of Christmas', cursive;
+}
+a{
+  color: black;
+  text-decoration:none;
+}
+
+.li:hover{
+  background-color: #f8eded; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #f8eded , #025955);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #025955;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px ;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover  .dropdown-content{
+  display: block;
+  width: 126px;
+  padding: 0;
+}
+.dropdown-content-content:hover{
+background-color: #e1e5ea;
+height: 50px;
+padding-top: 20px;
+display: block;
+color: black;
+}

@@ -8,7 +8,7 @@ margin-left: 200px;
 .div2{
 position: relative;
   height: 750px;
-  width: 500px;
+  width: 700px;
   left: 600px;
   top: 0;
 }
@@ -19,6 +19,7 @@ position: relative;
   margin-left: 200px;
 }
 .div5{
+  background-color: #025955;
   text-align: center;
   position: relative;
   height: 200px;
@@ -47,6 +48,7 @@ body{
   .hh2{
     color:#0a1931;
     top:0;
+    margin-top: 0;
   }
   h3{
     margin: 0;
@@ -65,6 +67,7 @@ body{
     width:1100px;
   }
   .ii{
+
     margin-left: 200px;
     height: 700px;
     width: 1100px;
@@ -72,7 +75,58 @@ body{
   .icon{
     position: relative;
     margin-left:5px;
-    margin-top:2px; 
+    margin-top:2px;
     width: 20px;
     height: 20px;
   }
+
+.list1{
+  position: absolute;
+  margin-top: 720px;
+  text-align: center;
+}
+.li{
+padding-right: 70px;
+font-size: 20px;
+display: inline;
+text-align: center;
+font-family: 'Mountains of Christmas', cursive;
+}
+a{
+  color: black;
+  text-decoration:none;
+}
+
+.li:hover{
+  background-color: #f8eded; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to left, #f8eded , #025955);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  color: white;
+  display: none;
+  position: absolute;
+  background-color: #025955;
+  width: 100px;
+  box-shadow: 0px 8px 16px 0px ;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover  .dropdown-content{
+  display: block;
+  width: 126px;
+  padding: 0;
+}
+.dropdown-content-content:hover{
+background-color: #e1e5ea;
+height: 50px;
+padding-top: 20px;
+display: block;
+color: black;
+}
